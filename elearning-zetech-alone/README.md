@@ -1,6 +1,8 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# About this project
+* This is a Zetech elearning student portal done in REACT
+
 
 Currently, two official plugins are available:
 
