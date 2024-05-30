@@ -1,0 +1,16 @@
+nav {
+    background: #332211;
+    inline-size: 100vw;
+    block-size: 3rem;
+    color: blanchedalmond;
+    z-index: 9999999999999999999999;
+    border-block-end: 2px solid #832;
+    position: sticky;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+}
+
+.container {
+    inline-size: 96% !important;
+}
