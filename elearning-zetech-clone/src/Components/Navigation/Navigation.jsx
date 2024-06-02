@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <nav>
         <div className="container nav__container">
-            <a href="#" className="logo"><img src="https://elearning.zetech.ac.ke/pluginfile.php/1/theme_edutor/logo/1716463041/Portrait%20Logo%20282C%20%281%29.png" alt="" /></a>
+            {/* <a href="#" className="logo"><img src="https://elearning.zetech.ac.ke/pluginfile.php/1/theme_edutor/logo/1716463041/Portrait%20Logo%20282C%20%281%29.png" alt="" /></a> */}
             <ul className="nav_list">
               <li><a href="#">Course Catalogue</a></li>
               <li><a href="#">News and Announcement</a></li>
