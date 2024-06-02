@@ -19,6 +19,8 @@
   --color-primary-bg: ;
   --color-secondary-bg: ;
   --color-text: ;
+  --color-text-nav: rgba(255, 255, 255, .75);
+  --color-text-nav: #212529;
 
   --transition: all 300ms ease;
 
@@ -53,8 +55,9 @@ section {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--color-text-nav);
   transition: var(--transition);
+  cursor: pointer;
 }
 
 a:hover {

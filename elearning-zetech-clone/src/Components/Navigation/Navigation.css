@@ -14,3 +14,7 @@ nav {
 .container {
     inline-size: 96% !important;
 }
+
+.menu_btns {
+    display: none;
+}
