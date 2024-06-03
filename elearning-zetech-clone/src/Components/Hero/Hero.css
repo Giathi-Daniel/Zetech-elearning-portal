@@ -1,10 +1,8 @@
-section {
-    background: blue;
-    inline-size: 100%;
-}
 .hero__container {
     display: grid;
     grid-template-columns: 40% auto;
     gap: 3rem;
     padding-inline: 4rem;
+    background: blue;
+    inline-size: 100%
 }
