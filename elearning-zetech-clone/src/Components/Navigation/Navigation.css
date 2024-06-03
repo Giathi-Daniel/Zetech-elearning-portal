@@ -2,17 +2,56 @@ nav {
     background: #332211;
     inline-size: 100vw;
     block-size: 3rem;
-    color: blanchedalmond;
+    color: rgb(101, 89, 70);
     z-index: 9999999999999999999999;
     border-block-end: 2px solid #832;
     position: sticky;
     inset-block-start: 0;
     inset-inline-start: 0;
     inset-inline-end: 0;
+    font-size: 14px;
+    padding-block: 1rem;
 }
 
+.nav__container {
+    block-size: 100%;
+    inline-size: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 2rem;
+}
+
+.logo img {
+    inline-size: 100%;
+    max-inline-size: 50px;
+    block-size: 90%;
+    /* margin-block-start: .5rem; */
+}
+
+.nav_list {
+    display: flex;
+    gap: 1.2rem;
+}
+
+ul li a,
+.nav_social a {
+    color: var(--color-text-nav);
+}
+
+ul li a:hover {
+    color: rgba(255, 255, 255, .9);
+}
+
+svg.icon {
+    gap: .3rem;
+    color: var(--color-text-nav);
+    margin-block-start: .1rem;
+}
+
+
 .container {
-    inline-size: 96% !important;
+    inline-size: 90% !important;
 }
 
 .menu_btns {
