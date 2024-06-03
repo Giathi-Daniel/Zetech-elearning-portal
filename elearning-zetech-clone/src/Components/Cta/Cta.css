@@ -1,8 +1,24 @@
-.call_to-action {
-   display: grid;
-   grid-template-rows: 1fr 1fr;
+.action__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: red;
+    margin-block-start: 4rem !important;
+    border-radius: .7rem;
+    padding-inline: 3rem;
+    gap: 3rem;
 }
 
-.call_to_action-text p {
+/* .call_to_action-text p {
     display: inline-block;
+} */
+
+.call_to_action-input {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
+
+input {
+    inline-size: 50%;
+}
+
