@@ -41,6 +41,7 @@ body {
   margin: 0;
   /* white-space: no-wrap; */
   font-size: 1.5rem;
+  overflow-x: hidden;
 }
 
 .container {
