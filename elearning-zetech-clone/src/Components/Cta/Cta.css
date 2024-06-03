@@ -1,0 +1,8 @@
+.call_to-action {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+}
+
+.call_to_action-text p {
+    display: inline-block;
+}

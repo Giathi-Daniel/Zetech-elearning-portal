@@ -1,10 +1,10 @@
 import React from "react";
+import './Cta.css'
 
 const Cta = () => {
   return (
     <>
-      <section className="container">
-        <div className="call_to-action">
+      <section className="container action__container">
           <div className="call_to_action-text">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
@@ -15,7 +15,6 @@ const Cta = () => {
             <input type="email" name="email" id="emailInput" />
             <button type="submit">Call to action</button>
           </div>
-        </div>
       </section>
     </>
   );
